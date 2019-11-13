@@ -1,4 +1,4 @@
-# Healthspan and lifespan predictors based on machine learning analysis of mouse frailty
+# Age and life expectancy clocks based on machine learning analysis of mouse frailty
 
 This repository contains machine learning-derived models to predict age and lifespan from frailty assesment. The FRIGHT (**F**railty **I**nferred **G**eriatric **H**ealth **T**imeline) age model is designed to predict chronological age and the AFRAID (**A**nalysis of **F**railty and **D**eath) score is designed to predict time to death using frailty the 31 parameter murine frailty index (Whitehead et al. 2014). 
 
