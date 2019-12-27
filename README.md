@@ -16,7 +16,7 @@ Implementation of the FRIGHT and AFRAID models via the iPython notebook in the r
 
 Note that the [most recent version of Anaconda](https://www.anaconda.com/distribution/) (2019.07) comes with these packages pre-installed. Currently the iPython script will work with a current Anaconda installation. However, to avoid issues with dependencies and future releases, a conda environment can be used.
 
-`conda create -n frailtyEnv -c conda-forge python=3.6 pandas=0.20.1 seaborn=0.8.1 numpy=1.14.0 jupyter=5.0.0 scipy=1.0.0 scikit-learn=0.20.1`
+`conda create -n frailtyEnv -c conda-forge python=3.6 pandas=0.20.1 seaborn=0.8.1 numpy=1.14.0 jupyter=5.0.0 scipy=1.0.0 scikit-learn=0.20.3`
 
 You can then activate the new environment on OS/linux using `source activate frailtyEnv` in the terminal, or on Windows using `conda activate frailtyEnv` in AnacondaPrompt.
 
