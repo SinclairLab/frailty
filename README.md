@@ -5,18 +5,18 @@ This repository contains machine learning-derived models to predict age and life
 The models are packaged as `fright_age.sav` and `afraid_score.sav`. The iPython notebook shows how to load these models and use them on the data from **our biorxiv preprint (xxx)**. 
 
 # Python Environment Requirements
-Implementation of the FRIGHT and AFRAID models via the iPython notebook in the repository require Python version 3.7.x and the following packages:
+Implementation of the FRIGHT and AFRAID models via the iPython notebook in the repository require Python version 3.6.x and the following packages:
 
-- jupyter (6.0.1)
-- scikit-learn (0.21.3)
-- pandas (0.25.1)
-- numpy (1.17.2)
-- scipy (1.3.1)
-- seaborn (0.9.0)
+- jupyter (5.0.0)
+- scikit-learn (0.20.3)
+- pandas (0.20.1)
+- numpy (1.14.0)
+- scipy (1.0.0)
+- seaborn (0.8.1)
 
 Note that the [most recent version of Anaconda](https://www.anaconda.com/distribution/) (2019.07) comes with these packages pre-installed. Currently the iPython script will work with a current Anaconda installation. However, to avoid issues with dependencies and future releases, a conda environment can be used.
 
-`conda create -n frailtyEnv -c conda-forge python=3.7 pandas=0.25.1 seaborn=0.9.0 numpy=1.17.2 jupyter=6.0.1 scipy=1.3.1 scikit-learn=0.21.3`
+`conda create -n frailtyEnv -c conda-forge python=3.6 pandas=0.20.1 seaborn=0.8.0 numpy=1.14.0 jupyter=5.0.0 scipy=1.0.0 scikit-learn=0.20.1`
 
 You can then activate the new environment on OS/linux using `source activate frailtyEnv` in the terminal, or on Windows using `conda activate frailtyEnv` in AnacondaPrompt.
 
@@ -30,3 +30,5 @@ The FRIGHT and AFRAID models are packaged as `fright_age.sav` and `afraid_score.
 Running the iPython notebook will show how to load the data, load the models and calculate FRIGHT age and AFRAID score on the data.
 
 Note that the column names for your data must match the formatting in the iPython script as listed in the `frightVariables` and `afraidVariables` objects. If you're running into trouble running your data through the model it may be because the column names from your data doesn't exactly match the column names that the models are expecting.
+
+**We are also developing an easy-to-use webapp, coming soon, where users can upload their data and calculate FRIGHT age and AFRAID score with a single click. Upon completion, we will post the link here.**
