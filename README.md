@@ -8,7 +8,7 @@ The models are packaged as `fright_age.sav` and `afraid_score.sav`. The iPython 
 Implementation of the FRIGHT and AFRAID models via the iPython notebook in the repository require Python version 3.6.x and the following packages:
 
 - jupyter (5.0.0)
-- scikit-learn (0.20.3)
+- scikit-learn (0.19.0)
 - pandas (0.20.1)
 - numpy (1.14.0)
 - scipy (1.0.0)
