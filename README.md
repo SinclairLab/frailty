@@ -4,7 +4,7 @@
 
 This repository contains machine learning-derived models to predict age and lifespan from frailty assesment. The FRIGHT (**F**railty **I**nferred **G**eriatric **H**ealth **T**imeline) age model is designed to predict chronological age and the AFRAID (**A**nalysis of **F**railty and **D**eath) score is designed to predict time to death using frailty the 31 parameter murine frailty index (Whitehead et al. 2014). 
 
-The models are packaged as `fright_age.sav` and `afraid_score.sav`. The iPython notebook shows how to load these models and use them on the data from **our biorxiv preprint (xxx)**. 
+The models are packaged as `fright_age.sav` and `afraid_score.sav`. The iPython notebook shows how to load these models and use them on the data from **our biorxiv preprint (https://www.biorxiv.org/content/10.1101/2019.12.20.884452v1)**. 
 
 # Python Environment Requirements
 Implementation of the FRIGHT and AFRAID models via the iPython notebook in the repository require Python version 3.6.x and the following packages:
